@@ -1,0 +1,153 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0; 
+}
+
+*,*:before,*after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input:: -ms-clear{display: none;}
+button{cursor: pointer;}
+button:: -moz-focus-inner {padding: 0; border:0;}
+a, a:visited{text-decoration: none; }
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+/*конец обнуляющего стиля*/
+
+
+/*---------------цвета-----------------
+#00adef 
+#ff0f69
+#ccf
+#123
+#043927 - сакраменто
+*/
+/*-------------------------------------*/
+
+
+body{
+	font-family: arial;
+	background-image: url(../img/nebo.jpg);
+}
+
+li{
+	border: 1px solid #000;
+	width: 140px;
+	margin: 0px 500px 20px 500px;
+	background: #fff;
+	border-radius: 10px;
+	height: 30px;
+	font-size: 24px;
+	width: 600px;
+	padding: 0px 0px 0px 10px;
+}
+
+li:hover{
+	background-color: yellow; 
+}
+
+nav{
+	height: 60px;
+	width: 100%;
+	border: 1px solid #000;
+	font-size: 48px;
+	background-color: #fff;
+	color: #ed9121;
+	text-align: center;
+	padding: 20px;
+	font-weight: 900;
+	background-image: url(../img/title.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+main{
+	height: 200px;
+
+	background-size: auto 100%;
+}
+
+.foot{
+	position: absolute;
+	top: 770px;
+	background-image: url(../img/grass_foot.png);
+	background-size: auto 100%;
+	height: 50px;
+	width: 100%;
+}
+
+.question{
+	border: 1px solid #000;
+	margin: 100px 500px 20px 500px;
+	text-align: center;
+	font-size: 24px;
+	background-color: #fff;
+	height: 40px;
+
+}
+
+/*Вывод текста результата*/
+.result{
+	border: 1px solid #000;
+	margin: 40px 500px 0px 500px;
+	text-align: center;
+	font-size: 24px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.img-result{
+	height: 400px;
+	margin: 40px 0px 0px 500px;
+	border: 2px solid #fff;
+}
+.right-rabbit{
+	position: fixed;
+	left: 1450px;
+	top: 300px;
+	height: 500px;
+	Transition-duration: 3s;
+}
+
+.right-rabbit:hover{
+	left: 1300px;
+	Transition-duration: 1s;
+}
+
+.left-rabbit{
+	position: fixed;
+	left: -100px;
+	top: 300px;
+	height: 500px;
+	Transition-duration: 3s;
+}
+
+.left-rabbit:hover{
+	left: 0px;
+	Transition-duration: 1s;
+}
